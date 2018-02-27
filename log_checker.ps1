@@ -3,7 +3,7 @@
 # Date: 23 Dec'16
 
 
-# For Execution in cmd (if execution is restricted): powershell -ExecutionPolicy ByPass -File ScriptName
+# For Execution in cmd (execution policy is restricted by default): powershell -ExecutionPolicy ByPass -File ScriptName
 
 Write-Host "`nLog Checker v1.0`n"
 
