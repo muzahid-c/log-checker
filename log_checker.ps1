@@ -34,9 +34,9 @@ $AllFolder = $Folder + 1
 Write-Host "No of folders in given path (including Parent Folder):" $AllFolder
 
 
-# Actual log file no; Filter by extension
-$Actual_Log = ((Get-ChildItem -path $FullPath -recurse -filter $DesiredFilter) | Measure-Object).Count
-Write-Host "No of log file:" $Actual_Log
+#Log file number; Filter by extension
+$Log = ((Get-ChildItem -path $FullPath -recurse -filter $DesiredFilter) | Measure-Object).Count
+Write-Host "No of log file:" $Log
 "`n"
 # Now read the content of the log
 
